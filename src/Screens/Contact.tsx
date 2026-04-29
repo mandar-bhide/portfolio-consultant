@@ -16,7 +16,7 @@ export default function Contact() {
 
         <div className="desktop-row-mobile-col" style={{alignItems:'center',justifyContent:'center'}}>
             <a href="https://github.com/mandar-bhide/portfolio-consultant" rel='noreferrer' target="_blank" style={{margin:'1rem 2rem'}}>Source</a>
-            <a href="https://github.com/mandar-bhide/portfolio-react" rel='noreferrer' target="_blank" style={{margin:'1rem 2rem'}}>Previous Version</a>
+            <a href="https://mandar-bhide.github.io/portfolio-react" rel='noreferrer' target="_blank" style={{margin:'1rem 2rem'}}>Previous Version</a>
             <a href="https://www.instagram.com/entweak" rel='noreferrer' target="_blank" style={{margin:'1rem 2rem'}}>Project Entweak</a>
         </div>
 

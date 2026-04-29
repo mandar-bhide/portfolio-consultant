@@ -66,10 +66,8 @@ a{
 
 .list-horizontal{
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  justify-content: center;
+  display: grid;
+  grid-auto-flow: column dense;
 }
 
 .list-horizontal>li:not(:first-child){

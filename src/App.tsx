@@ -25,7 +25,7 @@ export default function App(){
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-    return <div>
+    return <div style={{overflowX:'hidden'}}>
         <LoadingAnimation/>
         <Landing/>
         <Experience/>

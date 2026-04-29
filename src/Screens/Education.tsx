@@ -25,9 +25,9 @@ export default function Education(){
             {
                 education.map((el,index)=><div className="row" key={index} style={{justifyContent:'space-between',alignItems:'center'}}>
                     <div className="col" style={{alignItems:'start',margin:'2rem'}}>
-                        <h3 style={{color:'#f1f1f1',fontWeight:'600'}}>{el.institute}</h3>
+                        <h3 style={{color:'#f1f1f1',fontWeight:'600'}}>{el.degree}</h3>
                         <div style={{content:' ',height:'10px'}}></div>
-                        <p style={{color:'#d5d5d5',fontSize:'0.9em'}}>{el.degree}</p>
+                        <p style={{color:'#d5d5d5',fontSize:'0.9em'}}>{el.institute}</p>
                     </div>
                     <p style={{margin:'1rem',marginLeft:'3rem',color:'#d5d5d5',whiteSpace:'nowrap'}}>{el.fromTo}</p>                    
                 </div>)
