@@ -1,5 +1,4 @@
 import { motion } from 'motion/react'
-import { Arrow } from '../Components/icons'
 
 export default function Landing() {
     return <div style={{height:"100vh",display: 'flex',flexDirection: 'column',alignItems: 'center',justifyContent: 'center'}}>

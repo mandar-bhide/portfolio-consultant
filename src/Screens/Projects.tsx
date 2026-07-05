@@ -58,7 +58,7 @@ export default function Projects() {
                         }                                
                     </div>
                     <div style={{content:'',width:'1rem',height:'1rem'}}></div>
-                    <a href={el.codeLink} target="_blank" style={{margin:'10px',marginLeft:0,display:'flex',alignItems:'center',backgroundColor:'#1C1E21',padding:'10px 12px',borderRadius:'8px',color:'#fff'}}>View Project &nbsp; <Arrow color="#fff" size={20}/></a>
+                    <a href={el.codeLink} rel="noreferrer" target="_blank" style={{margin:'10px',marginLeft:0,display:'flex',alignItems:'center',backgroundColor:'#1C1E21',padding:'10px 12px',borderRadius:'8px',color:'#fff'}}>View Project &nbsp; <Arrow color="#fff" size={20}/></a>
                 </div>
             </div>)
         }
